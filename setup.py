@@ -4,11 +4,12 @@ setup(
     name='study',
     version='0.1',
     packages=find_packages(),
-    description='Study GitHub',
+    description='Study',
     author='VALDAS',
     author_email='valdas@gmail.com',
     url='https://github.com/valdas1966/study',
-    install_requires=[
-        # Any dependencies your project needs, e.g., 'requests>=2.25.1'
+    install_requires=
+    [
+        'setuptools>=67.6.0'
     ]
 )
